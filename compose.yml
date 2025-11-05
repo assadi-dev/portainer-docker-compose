@@ -9,5 +9,5 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock
     ports:
       - "9443:9443"
-      - "8000:9000"
+      - "9000:9000"
     restart: unless-stopped
